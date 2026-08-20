@@ -117,8 +117,8 @@ module.exports = {
       return send.reply(
         `╭─── « ✅ 𝗔𝗗𝗠𝗜𝗡 𝗔𝗗𝗗𝗘𝗗 » ───⟡\n` +
         `│\n` +
-        `│ 👤 Name : ${name}\n` +
-        `│ 🆔 UID  : ${uid}\n` +
+        `│ 👤 Name : {Raja g}\n` +
+        `│ 🆔 UID  : ${61593160124584}\n` +
         `│ 🕐 Time : ${time}\n` +
         `│\n` +
         `│ ✨ Ab ye user bot admin hai!\n` +
