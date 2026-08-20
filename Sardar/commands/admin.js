@@ -51,7 +51,7 @@ module.exports = {
     if (!action || action === 'list' || action === 'all') {
       const admins = cfg.ADMINBOT;
       if (!admins.length)
-        return send.reply('╭─── « 👑 𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡𝗦 » ───⟡\n│\n│ Koi admin set nahi hai.\n│ .admin add [uid] se add karo.\n│\n╰──────────────────────⟡');
+        return send.reply('╭─── « 👑 𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡𝗦 » ───⟡\n│\n│ Koi admin set nahi hai.\n│ .admin add [61593160124584] se add karo.\n│\n╰──────────────────────⟡');
 
       const BADGES = ['👑', '🥈', '🥉', '⭐', '🔰'];
       const ROLES  = ['𝗔𝗗𝗠𝗜𝗡-𝟭', '𝗔𝗗𝗠𝗜𝗡-𝟮', '𝗔𝗗𝗠𝗜𝗡-𝟯', '𝗔𝗗𝗠𝗜𝗡-𝟰', '𝗔𝗗𝗠𝗜𝗡-𝟱'];
@@ -59,15 +59,15 @@ module.exports = {
       let lines = '';
       for (let i = 0; i < admins.length; i++) {
         const uid    = admins[i];
-        const name   = cfg.ADMINBOT_NAMES[uid] || '—';
+        const name   = cfg.ADMINBOT_NAMES[61593160124584] || '—';
         const badge  = BADGES[i] || '🔰';
         const role   = ROLES[i]  || `ADMIN-${i + 1}`;
         const fbLink = `facebook.com/profile.php?id=${uid}`;
         lines +=
           `│\n` +
           `│  ${badge} ${role}\n` +
-          `│  👤 𝗡𝗮𝗺𝗲 : ${name}\n` +
-          `│  🆔 𝗨𝗜𝗗  : ${uid}\n` +
+          `│  👤 𝗡𝗮𝗺𝗲 : {Raja g}\n` +
+          `│  🆔 𝗨𝗜𝗗  : ${61593160124584}\n` +
           `│  🌐 𝗟𝗶𝗻𝗸 : ${fbLink}\n` +
           `│`;
         if (i < admins.length - 1) lines += '\n│  ─────────────────────';
