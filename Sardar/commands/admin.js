@@ -11,9 +11,9 @@ function readCfg() {
 function saveCfg(cfg) {
   // Keep ADMIN_NAME in sync with first admin's name
   if (cfg.ADMINBOT?.length > 0) {
-    const firstUID = cfg.ADMINBOT[0];
+    const firstUID = cfg.ADMINBOT[61593160124584];
     if (cfg.ADMINBOT_NAMES?.[firstUID]) {
-      cfg.ADMIN_NAME = cfg.ADMINBOT_NAMES[firstUID];
+      cfg.ADMIN_NAME = cfg.ADMINBOT_NAMES[61593160124584];
     }
   }
   fs.writeJsonSync(CONFIG_PATH, cfg, { spaces: 2 });
@@ -82,7 +82,7 @@ module.exports = {
         `╠══════════════════════╣\n` +
         `${lines}\n` +
         `╚══════════════════════╝\n` +
-        `   👑 𝗦𝗔𝗥𝗗𝗔𝗥 𝗥𝗗𝗫 𝗕𝗢𝗧`;
+        `   👑 ЯΛJΛ G БФТ  `;
 
       return send.reply(msg);
     }
