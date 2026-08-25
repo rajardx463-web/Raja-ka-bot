@@ -3,10 +3,10 @@
   "LOGIN_METHOD": "appstate",
   "BOTNAME": "🩷𓆩๛⃝𝐌𝐀𝐍𝐎𓆪𓆤",
   "PREFIX": ".",
-  "ADMINBOT": [61593160124584],
+  "ADMINBOT": [61593974991316],
   "ADMIN_NAME": "Raja G",
   "ADMINBOT_NAMES": {
-    "61593160124584": "Raja G"
+    "61593974991316": "Raja G"
   },
   "PREFIX_ENABLED": true,
   "REACT_DELETE_EMOJI": "😡",
@@ -22,10 +22,10 @@
   "LOG_MESSAGES": true,
   "IGNORED_USERS": [],
   "DISABLED_COMMANDS": [],
-  "NOTIFY_TID": "61593160124584",
+  "NOTIFY_TID": "61593974991316",
   "AI_NAME": "Mano",
   "AI_OWNER": "Raja G",
-  "AI_OWNER_UID": "61593160124584",
+  "AI_OWNER_UID": "61593974991316",
   "AI_MODEL": "gpt-oss-120b",
   "AI_ENABLED": true,
   "AI_API_KEY": "csk-t3nmehr4m8t9dj69khp9dtm6cvwpfypewn382yjmefhx8tdt",
