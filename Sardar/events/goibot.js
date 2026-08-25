@@ -31,7 +31,7 @@ module.exports = {
       "kia masla 🤨",
       "Han han bolo Jan 🥰",
       "aby ruk tare to bot bot krta rehta 😾",
-      "Papi cholo 🌚",
+      "Raja mera boss ha i smjh 🌚",
       "Mujha bta tera masla kia 😑",
       "Kon sa kera kat RHA ry teko 😤",
       "Janam auo na kbhi khishbo lga KA side pa 🤭",
