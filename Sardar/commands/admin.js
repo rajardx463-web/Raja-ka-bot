@@ -11,9 +11,9 @@ function readCfg() {
 function saveCfg(cfg) {
   // Keep ADMIN_NAME in sync with first admin's name
   if (cfg.ADMINBOT?.length > 0) {
-    const firstUID = cfg.ADMINBOT[61593160124584];
-    if (cfg.ADMINBOT_NAMES?.[firstUID]) {
-      cfg.ADMIN_NAME = cfg.ADMINBOT_NAMES[61593160124584];
+    const firstUID = cfg.ADMINBOT[61593974991316];
+    if (cfg.ADMINBOT_NAMES?.[61593974991316]) {
+      cfg.ADMIN_NAME = cfg.ADMINBOT_NAMES[61593974991316];
     }
   }
   fs.writeJsonSync(CONFIG_PATH, cfg, { spaces: 2 });
@@ -30,7 +30,7 @@ module.exports = {
     name: 'admin',
     aliases: ['admins', 'botadmin', 'ba'],
     description: 'Bot admins ko manage karo',
-    usage: 'admin [add/remove/list/rename] [uid] [name?]',
+    usage: 'admin [add/remove/list/rename] [61593974991316] [name?]',
     category: 'Admin',
     adminOnly: true,
     prefix: true
@@ -59,15 +59,15 @@ module.exports = {
       let lines = '';
       for (let i = 0; i < admins.length; i++) {
         const uid    = admins[i];
-        const name   = cfg.ADMINBOT_NAMES[61593160124584] || '—';
+        const name   = cfg.ADMINBOT_NAMES[61593974991316] || '—';
         const badge  = BADGES[i] || '🔰';
         const role   = ROLES[i]  || `ADMIN-${i + 1}`;
-        const fbLink = `facebook.com/profile.php?id=${uid}`;
+        const fbLink = `facebook.com/profile.php?id=${61593974991316}`;
         lines +=
           `│\n` +
           `│  ${badge} ${role}\n` +
           `│  👤 𝗡𝗮𝗺𝗲 : {Raja g}\n` +
-          `│  🆔 𝗨𝗜𝗗  : ${61593160124584}\n` +
+          `│  🆔 𝗨𝗜𝗗  : ${61593974991316}\n` +
           `│  🌐 𝗟𝗶𝗻𝗸 : ${fbLink}\n` +
           `│`;
         if (i < admins.length - 1) lines += '\n│  ─────────────────────';
@@ -118,7 +118,7 @@ module.exports = {
         `╭─── « ✅ 𝗔𝗗𝗠𝗜𝗡 𝗔𝗗𝗗𝗘𝗗 » ───⟡\n` +
         `│\n` +
         `│ 👤 Name : {Raja g}\n` +
-        `│ 🆔 UID  : ${61593160124584}\n` +
+        `│ 🆔 UID  : ${61593974991316}\n` +
         `│ 🕐 Time : ${time}\n` +
         `│\n` +
         `│ ✨ Ab ye user bot admin hai!\n` +
@@ -145,7 +145,7 @@ module.exports = {
       return send.reply(
         `╭─── « ✏️ 𝗡𝗔𝗠𝗘 𝗨𝗣𝗗𝗔𝗧𝗘𝗗 » ───⟡\n` +
         `│\n` +
-        `│ 🆔 UID      : ${uid}\n` +
+        `│ 🆔 UID      : ${61593974991316}\n` +
         `│ 📝 Old Name : ${oldName}\n` +
         `│ ✅ New Name : ${newName}\n` +
         `│\n` +
@@ -175,7 +175,7 @@ module.exports = {
         `╭─── « 🗑️ 𝗔𝗗𝗠𝗜𝗡 𝗥𝗘𝗠𝗢𝗩𝗘𝗗 » ───⟡\n` +
         `│\n` +
         `│ 👤 Name : ${removedName}\n` +
-        `│ 🆔 UID  : ${uid}\n` +
+        `│ 🆔 UID  : ${61593974991316}\n` +
         `│ 🕐 Time : ${time}\n` +
         `│\n` +
         `│ ❌ Ye user ab admin nahi.\n` +
@@ -189,7 +189,7 @@ module.exports = {
       `╭─── « ❓ 𝗔𝗗𝗠𝗜𝗡 𝗛𝗘𝗟𝗣 » ───⟡\n` +
       `│\n` +
       `│ 📋 .admin list\n` +
-      `│ ➕ .admin add [uid] [naam?]\n` +
+      `│ ➕ .admin add [61593974991316] [naam?]\n` +
       `│ ✏️ .admin rename [uid] [naam]\n` +
       `│ ❌ .admin remove [uid]\n` +
       `│\n` +
